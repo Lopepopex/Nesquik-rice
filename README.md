@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # Nesquik Rice
 
 A minimalist and futuristic desktop environment built for NixOS and Hyprland.
@@ -26,3 +27,5 @@ A minimalist and futuristic desktop environment built for NixOS and Hyprland.
 ## Platform
 
 NixOS + Hyprland
+=======
+>>>>>>> 23d8072fd4d4f1fba3b419c6dd559511dd671fa6

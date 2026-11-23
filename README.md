@@ -1,31 +1,53 @@
-
-<<<<<<< HEAD
 # Nesquik Rice
 
-A minimalist and futuristic desktop environment built for NixOS and Hyprland.
+A futuristic desktop environment built for NixOS and Hyprland.
 
-## Design
+## Components
 
-- Minimalist desktop
-- Futuristic cyan and blue accents
-- Smooth animations
-- Custom Waybar
-- Rofi application launcher
-- Kitty terminal
-- Dynamic colors with Matugen
+- Hyprland
+- Waybar
+- Rofi
+- Kitty
+- Cava
+- Fastfetch
+- Matugen
+- SwayNC
+- Wlogout
 
 ## Structure
 
 - `hypr/` - Hyprland configuration
 - `waybar/` - Status bar
 - `rofi/` - Application launcher
-- `kitty/` - Terminal
+- `kitty/` - Terminal configuration
+- `cava/` - Audio visualizer
+- `fastfetch/` - System information
+- `matugen/` - Dynamic theming
+- `swaync/` - Notification center
+- `wlogout/` - Logout menu
 - `wallpapers/` - Wallpapers
-- `scripts/` - Custom scripts
-- `assets/` - Icons and visual resources
+
+## Features
+
+- Custom animations and window rules
+- Dynamic colors with Matugen
+- Custom Waybar configuration
+- Application launcher
+- Notification center
+- Custom wallpapers
 
 ## Platform
 
-NixOS + Hyprland
-=======
->>>>>>> 23d8072fd4d4f1fba3b419c6dd559511dd671fa6
+- NixOS 26.05
+- Hyprland
+- x86_64-linux
+
+## Development
+
+This repository includes a Nix development shell.
+
+Enter it with:
+
+    nix develop
+
+Development tools include Git, Python, jq, ripgrep, nixfmt, ShellCheck and shfmt.
